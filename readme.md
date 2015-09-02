@@ -4,12 +4,9 @@
 </div>
 The icon font especially for cartographical use.
 
-For demo see project page on [mapkeyicons.com](http://www.mapkeyicons.com)
-
-Production files are located in ```dist``` ditrectory.
-
-#### Stay tuned!
-**We will provide ArcMap, QGIS symbol set soon!**
+For demo see project page on [mapkeyicons.com](http://www.mapkeyicons.com)<br/>
+Production files are located in ```dist``` ditrectory.<br/>
+**Stay tuned! We will soon provide ArcMap, QGIS symbol set and simple Leaflet plugin for web cartography!**
 
 ### License  
 **CC0 1.0 Universal**
@@ -50,7 +47,8 @@ Predefined sizes:
 
 ## FONTS
 There are generated 4 font types:
-**Glyphs started at U+E000 position (PUA)
+
+**Glyphs started at U+E000 position (PUA)**
 * ```MapkeyIcons.ttf```
 * ```MapkeyIcons.woff```
 * ```MapkeyIcons.svg```
@@ -84,8 +82,9 @@ You can use rendered PNG icons. The image size is 256×256px.
 * 0.y.0: icon added, large shape modifications
 * 0.0.z: small shape modifications
 
----
-*For similar project visit: [FontAwesome](https://fortawesome.github.io/Font-Awesome/) or [MAKI](https://www.mapbox.com/maki/)*
 
+
+---
+*For similar project visit: [FontAwesome](https://fortawesome.github.io/Font-Awesome/) or [MAKI](https://www.mapbox.com/maki/)*<br/>
 *(c) [mapshakers](http://www.mapshakers.com), 2015*
 
