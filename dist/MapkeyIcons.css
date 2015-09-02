@@ -18,9 +18,10 @@
     font-style: normal;
 }
 
-.mki,.mki-medium,.mki-short,.mki-tall,.mki-grande,.mki-venti  {
+.mki,.mki-medium,.mki-intext,.mki-short,.mki-tall,.mki-grande,.mki-venti  {
     font-family: 'MapkeyIcons', sans-serif;
     display: inline-block;
+    font-weight: normal;
     text-decoration: none;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -28,7 +29,9 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
 }
+.mki-intext { font-size: 1.2em; }
 
 .mki-short { font-size: small; }
 .mki-tall { font-size: large; }
