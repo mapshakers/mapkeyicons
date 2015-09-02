@@ -11,7 +11,7 @@ The icon font especially for cartographical use. For demo see project page on [m
 (feel free to use it everywhere)
 
 ### Try it right now!
-Insert this code to your project.
+Insert this code into your project.
 ```html
 <!-- Link rawgit MapkeyIcons.css for development purposes! -->
 <link href='https://rawgit.com/mapshakers/mapkeyicons/master/dist/MapkeyIcons.css' rel='stylesheet' type='text/css'>
