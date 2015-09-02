@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) mapshakers 2015, Licence: CC0 1.0 Universal, www.mapshakers.com  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="trinagle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="256px" height="256px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#D1D1D1;}
+	.st1{fill:#454545;}
+]]>
+</style>
+<path class="st0" d="M36.042,238.86c-10.096,0-19.358-5.513-24.172-14.387c-4.814-8.874-4.385-19.645,1.12-28.107l91.958-141.389
+	C110.04,47.146,118.658,42.47,128,42.47s17.96,4.676,23.053,12.507l91.958,141.39c5.505,8.461,5.934,19.231,1.119,28.106
+	c-4.814,8.874-14.076,14.387-24.172,14.387H36.042z"/>
+<path class="st1" d="M234.628,201.819L142.67,60.429c-3.229-4.964-8.748-7.959-14.67-7.959c-5.921,0-11.441,2.995-14.67,7.959
+	l-91.958,141.39c-3.5,5.38-3.773,12.244-0.712,17.886s8.964,9.155,15.382,9.155h183.917c6.418,0,12.321-3.514,15.382-9.155
+	S238.128,207.199,234.628,201.819z M68.299,193.86L128,102.067l59.7,91.793H68.299z"/>
+</svg>

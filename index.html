@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="demo/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="demo/img/favicon//apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="demo/img/favicon//apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="demo/img/favicon//apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="demo/img/favicon//apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="demo/img/favicon//apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="demo/img/favicon//apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="demo/img/favicon//apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="demo/img/favicon//apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="demo/img/favicon//favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="demo/img/favicon//favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="demo/img/favicon//favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="demo/img/favicon//android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="demo/img/favicon//favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="demo/img/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="demo/img/favicon//mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Nice icons for web and cartography">
+    <meta name="keywords" content="icons, symbol, font, map, design, cartography, web development, css">
+    <meta name="author" content="Filip Zavadil">
+    <title>MapkeyIcons</title>
+    <link rel="stylesheet" href="dist/MapkeyIcons.css"/>
+
+    <script src="demo/lunr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="demo/style.css" type='text/css'>
+
+</head>
+<body>
+
+
+<a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;z-index:199" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+
+
+
+<header>
+    <div class="wrapper">
+        <img src="demo/img/mapkeyIcons.svg"/>
+    </div>
+</header>
+
+
+
+<section class="icons-promo">
+
+    <div class="wrapper">
+        <div class="window">
+            <span id='icon' class="mki mki-archaeological"></span>
+        </div>
+        <div class="content">
+            The icon font especially for cartographical use. <br/>Developed for retina displays. <br/> Download it! Use it! For free!
+        </div>
+    </div>
+
+</section>
+
+<section class="info-wrapper">
+    <div class="wrapper">
+        <div id="info">
+            Download actual <span class="bold"> version <span id="version">1.0.0</span></span> as font (ttf,woff,svg) or vectors (svg) or pngs. There is also <span class="bold">CSS toolkit</span> for simply usage. Feel free to use it everywhere! MapkeyIcons are distributed under public domain license: <span class="bold"><a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/"> CC0 1.0 Universal</a></span>. Icons are made by <a target="_blank" href="http://www.mapshakers.com"><span class="mki mki-mapshakers" style="font-weight:normal;font-size: 1.2em"></span>mapshakers</a>. Icon set has <span id="count">200+</span> icons and constantly growing.
+        </div>
+        <div id="buttons">
+            <a href="dist/MapkeyIcons.zip" download="MapkeyIcons.zip" target="_blank"><span class="mki mki-download" style="font-weight:normal;font-size: 1.2em"></span> css</a>
+            <a href="dist/svg.zip" download="MapkeyIconsSVG.zip" target="_blank"><span class="mki mki-download" style="font-weight:normal;font-size: 1.2em"></span> svg</a>
+            <a href="dist/png.zip" download="MapkeyIconsPNG.zip" target="_blank"><span class="mki mki-download" style="font-weight:normal;font-size: 1.2em"></span> png</a>
+            <a href="http://www.github.com" target="_blank"><span class="mki mki-github" style="font-weight:normal;font-size: 1.2em"></span> github</a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="starter">
+    <div class="wrapper">
+        <h1>How to get started?!</h1>
+        <h2>It's deadly simple ;)</h2>
+        <ol>
+            <li> <a href="dist/MapkeyIcons.zip" download="MapkeyIcons.zip" target="_blank" style="text-decoration: none;color: #153754"><span class="mki mki-download" style="font-weight:normal;font-size: 1.2em;"></span> download CSS</a> toolkit (it contains css file and fonts) and place them in same folder. </li>
+            <li> Link stylesheet in your HTML code:  <div class="htmlcode"> &lt;link rel="stylesheet" type="text/css" href="MapkeyIcons.css"/&gt;</div> </li>
+            <ul>
+                <li> use it in html like this: <div class="htmlcode"> &lt;span class='mki mki-university'&gt;&lt;/span&gt;</div></li>
+                <li> or use class <i>mki</i> in element: (e.g. <span class='htmlcode'>&lt;div class="mki"&gt; &amp;#xe035; &lt;/div&gt;</span>) in your HTML document.</li>
+                <li> or download svg/png images and you know what to do ;)</li>
+            </ul>
+            <li> More technical information on <a style="text-decoration: none;color: #153754" href="http://www.github.com"><span class="mki mki-github" style="font-weight:normal;font-size: 1.2em;"></span> github </a>pages</li>
+        </ol>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="wrapper">
+        <div id="search"><span class="mki mki-magnifier" style="-webkit-transform: translate(0px,0px);transform: translate(0px,0px);-ms-transform: translate(0px,0px)"></span> <input id="search_input" placeholder="search" type="text"/></div>
+        <div id="types"></div>
+        <div id="icons-wrapper"></div>
+    </div>
+</section>
+
+
+<section id="lastinfo">
+    <div class="wrapper">
+        <div style="float: left;width:40%;text-align: left;">Missing some icon? Request one! <br/> Contact us on <a  target="_blank" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#112;&#115;&#104;&#97;&#107;&#101;&#114;&#115;&#46;&#99;&#111;&#109;">&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#112;&#115;&#104;&#97;&#107;&#101;&#114;&#115;&#46;&#99;&#111;&#109;</a> </div>
+        <div style="float: right;width:40%;text-align: left;">Similar great projects: <a href="https://fortawesome.github.io/Font-Awesome/" target="_blank">FontAwesome</a>, <a href="https://www.mapbox.com/maki/" target="_blank">Maki Icons</a><br/>For more information visit <a href="http://www.github.com" target="_blank">project github page</a>. </div>
+    </div>
+</section>
+
+<footer id="copyright">
+    <div class="wrapper">
+        <div> © copyright <a target="_blank" href="http://www.mapshakers.com"><span class="mki mki-mapshakers" style="font-weight:normal;font-size: 1.2em"></span>mapshakers </a>  2015 - <a target="_blank" href="http://www.filipzavadil.com">Filip Zavadil</a>, All Rights Reserved  </div>
+    </div>
+</footer>
+
+</body>
+<script src="demo/main.js"></script>
+</html>

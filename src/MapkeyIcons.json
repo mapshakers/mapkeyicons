@@ -1,0 +1,1023 @@
+{
+  "banner": "<!-- (c) mapshakers 2015, License: CC0 1.0 Universal, www.mapshakers.com  -->",
+  "version": "1.0.0",
+  "license": "CC0 1.0 Universal",
+  "organisation": "mapshakers",
+  "author" :"Filip Zavadil",
+  "types" : ["sport","brand","gastronomy","service","industrial","religion","tourism","freetime","transport","symbol","building","architecture","urbanism"],
+  "template":{
+    "name":"---",
+    "type":"---",
+    "keywords":"--",
+    "lang":{ "cs":"---", "en":"---", "de":"---" },
+    "version":"1.0.0"
+  },
+  "mapshakers":{
+    "name":"mapshakers",
+    "type":"brand",
+    "keywords":"logo,mapshakers",
+    "lang":{ "cs":"mapshakers", "en":"mapshakers", "de":"mapshakers" },
+    "version":"1.0.0"
+  },
+  "mapkey":{
+    "name":"mapkey",
+    "type":"brand",
+    "keywords":"mapkey,monkey",
+    "lang":{ "cs":"mapkey", "en":"mapkey", "de":"mapkey" },
+    "version":"1.0.0"
+  },
+  "bar":{
+    "name":"bar",
+    "type":"service",
+    "keywords":"drink,glass,bar,gastronomy,alcohol",
+    "lang":{ "cs":"bar", "en":"bar", "de":"bar" },
+    "version":"1.0.0"
+  },
+  "traffic_signal":{
+    "name":"traffic_signal",
+    "type":"transport",
+    "keywords":"semaphore,stoplight,traffic",
+    "lang":{ "cs":"semafor", "en":"traffic signal", "de":"---" },
+    "version":"1.0.0"
+  },
+  "playground_alt":{
+    "name":"playground_alt",
+    "type":"sport",
+    "keywords":"pitch,jungle gym,slipway,child park,bech ball",
+    "lang":{ "cs":"dětské hřiště", "en":"playground", "de":"---" },
+    "version":"1.0.0"
+  },
+  "dentist":{
+    "name":"dentist",
+    "type":"service",
+    "keywords":"tooth,dental,back teeth,zub",
+    "lang":{ "cs":"zubní ordinace", "en":"dentist", "de":"---" },
+    "version":"1.0.0"
+  },
+  "fishing":{
+    "name":"fishing",
+    "type":"sport",
+    "keywords":"fish,angler,fishing pole",
+    "lang":{ "cs":"rybaření", "en":"fishing", "de":"---" },
+    "version":"1.0.0"
+  },
+  "wind_generator":{
+    "name":"wind_generator",
+    "type":"industrial",
+    "keywords":"power,generator",
+    "lang":{ "cs":"větrná elektrárna", "en":"wind generator", "de":"---" },
+    "version":"1.0.0"
+  },
+  "crucifix":{
+    "name":"crucifix",
+    "type":"religion",
+    "keywords":"cross,religion,christian",
+    "lang":{ "cs":"krucifix", "en":"crucifix", "de":"---" },
+    "version":"1.0.0"
+  },
+  "cave_entrance":{
+    "name":"cave_entrance",
+    "type":"tourism",
+    "keywords":"cave,cavern,speleology",
+    "lang":{ "cs":"jeskyně", "en":"cave", "de":"---" },
+    "version":"1.0.0"
+  },
+  "castle_defensive":{
+    "name":"castle_defensive",
+    "type":"tourism",
+    "keywords":"architecture,history,building",
+    "lang":{ "cs":"hrad", "en":"castle defensive", "de":"---" },
+    "version":"1.0.0"
+  },
+  "cinema":{
+    "name":"cinema",
+    "type":"freetime",
+    "keywords":"film,movie,screen",
+    "lang":{ "cs":"kino", "en":"cinema", "de":"---" },
+    "version":"1.0.0"
+  },
+  "water_tower":{
+    "name":"water_tower",
+    "type":"industrial",
+    "keywords":"water tank,duct",
+    "lang":{ "cs":"vodárenská věž", "en":"water tower", "de":"---" },
+    "version":"1.0.0"
+  },
+  "boundary_stone":{
+    "name":"boundary_stone",
+    "type":"tourism",
+    "keywords":",",
+    "lang":{ "cs":"hraniční kámen", "en":"boundary stone", "de":"---" },
+    "version":"1.0.0"
+  },
+  "zoo":{
+    "name":"zoo",
+    "type":"freetime",
+    "keywords":"zoological,monkey,entertainment",
+    "lang":{ "cs":"zoo", "en":"zoo", "de":"zoo" },
+    "version":"1.0.0"
+  },
+  "cinema_alt":{
+    "name":"cinema_alt",
+    "type":"freetime",
+    "keywords":"film,movie,screen",
+    "lang":{ "cs":"kino", "en":"cinema", "de":"---" },
+    "version":"1.0.0"
+  },
+  "court_house":{
+    "name":"court_house",
+    "type":"service",
+    "keywords":"justice,scale,layer,building",
+    "lang":{ "cs":"soud", "en":"courthouse", "de":"---" },
+    "version":"1.0.0"
+  },
+  "fort":{
+    "name":"fort",
+    "type":"tourism",
+    "keywords":"history,architecture,castle,defensive,building",
+    "lang":{ "cs":"pevnost", "en":"fort", "de":"---" },
+    "version":"1.0.0"
+  },
+  "fountain":{
+    "name":"fountain",
+    "type":"tourism",
+    "keywords":"water, refreshment",
+    "lang":{ "cs":"kašna", "en":"fountain", "de":"---" },
+    "version":"1.0.0"
+  },
+  "library":{
+    "name":"library",
+    "type":"service",
+    "keywords":"book,education",
+    "lang":{ "cs":"knihovna", "en":"library", "de":"---" },
+    "version":"1.0.0"
+  },
+  "rocks":{
+    "name":"rocks",
+    "type":"nature",
+    "keywords":"stone,geology",
+    "lang":{ "cs":"skála", "en":"rocks", "de":"---" },
+    "version":"1.0.0"
+  },
+  "cemetery":{
+    "name":"cemetery",
+    "type":"urbanism",
+    "keywords":"graves,zombies",
+    "lang":{ "cs":"hřbitov", "en":"cemetery", "de":"---" },
+    "version":"1.0.0"
+  },
+  "pub":{
+    "name":"pub",
+    "type":"freetime",
+    "keywords":"gastronomy,beer,draft,drinks,alcohol",
+    "lang":{ "cs":"hospoda", "en":"pub", "de":"---" },
+    "version":"1.0.0"
+  },
+  "buddhism":{
+    "name":"buddhism",
+    "type":"religion",
+    "keywords":"worship,temple",
+    "lang":{ "cs":"budhismus", "en":"buddhism", "de":"---" },
+    "version":"1.0.0"
+  },
+  "triangle":{
+    "name":"triangle",
+    "type":"tourism",
+    "keywords":"altitude,mountain,elevetion",
+    "lang":{ "cs":"výškový bod", "en":"triangle", "de":"---" },
+    "version":"1.0.0"
+  },
+  "police":{
+    "name":"police",
+    "type":"service",
+    "keywords":"cop,security,sheriff",
+    "lang":{ "cs":"policie", "en":"police station", "de":"---" },
+    "version":"1.0.0"
+  },
+  "ice_ring":{
+    "name":"ice_ring",
+    "type":"sport",
+    "keywords":"ice skate",
+    "lang":{ "cs":"bruslení", "en":"ice ring", "de":"---" },
+    "version":"1.0.0"
+  },
+  "marina":{
+    "name":"marina",
+    "type":"transport",
+    "keywords":"ship,landing,port,haven,harbor,anchor,grapnel,vessel,sea",
+    "lang":{ "cs":"přístaviště", "en":"marina", "de":"---" },
+    "version":"1.0.0"
+  },
+  "playground":{
+    "name":"playground",
+    "type":"sport",
+    "keywords":"pitch,jungle gym,slipway,child park",
+    "lang":{ "cs":"dětské hřistě", "en":"playground", "de":"---" },
+    "version":"1.0.0"
+  },
+  "ruins":{
+    "name":"ruins",
+    "type":"tourism",
+    "keywords":"history,architecture,castle,building",
+    "lang":{ "cs":"zřícenina", "en":"ruins", "de":"---" },
+    "version":"1.0.0"
+  },
+  "internet":{
+    "name":"internet",
+    "type":"service",
+    "keywords":"mail,at sign,connection,communication",
+    "lang":{ "cs":"internet", "en":"internet", "de":"---" },
+    "version":"1.0.0"
+  },
+  "airport":{
+    "name":"airport",
+    "type":"transport",
+    "keywords":"airfield,aerodrome,jet plane",
+    "lang":{ "cs":"letiště", "en":"airport", "de":"---" },
+    "version":"1.0.0"
+  },
+  "chapel":{
+    "name":"chapel",
+    "type":"religion",
+    "keywords":"christian,worship,church,cathedral,building",
+    "lang":{ "cs":"kaple", "en":"chapel", "de":"---" },
+    "version":"1.0.0"
+  },
+  "museum":{
+    "name":"museum",
+    "type":"tourism",
+    "keywords":"history,nature,building,architecture",
+    "lang":{ "cs":"muzeum", "en":"museum", "de":"---" },
+    "version":"1.0.0"
+  },
+  "monument":{
+    "name":"monument",
+    "type":"tourism",
+    "keywords":"memorial,grave,commemorative panel",
+    "lang":{ "cs":"památníkk", "en":"memorial", "de":"---" },
+    "version":"1.0.0"
+  },
+  "sport_centre":{
+    "name":"sport_centre",
+    "type":"sport",
+    "keywords":"tennis,squash,health,sport areal,soccker ball",
+    "lang":{ "cs":"sportovní centrum", "en":"sport centre", "de":"---" },
+    "version":"1.0.0"
+  },
+  "information":{
+    "name":"information",
+    "type":"tourism",
+    "keywords":"information office, information panel",
+    "lang":{ "cs":"inforamce", "en":"information", "de":"---" },
+    "version":"1.0.0"
+  },
+  "hospital":{
+    "name":"hospital",
+    "type":"service",
+    "keywords":"health,doctors,medic",
+    "lang":{ "cs":"nemocnice", "en":"hospital", "de":"---" },
+    "version":"1.0.0"
+  },
+  "golf":{
+    "name":"golf",
+    "type":"sport",
+    "keywords":"freetime,flag",
+    "lang":{ "cs":"golf", "en":"golf", "de":"---" },
+    "version":"1.0.0"
+  },
+  "picnic_site":{
+    "name":"picnic_site",
+    "type":"freetime",
+    "keywords":"gastronomy",
+    "lang":{ "cs":"piknik", "en":"picnic site", "de":"---" },
+    "version":"1.0.0"
+  },
+  "drag_lift":{
+    "name":"drag_lift",
+    "type":"sport",
+    "keywords":"skiing,snowboarding,winter holiday,anchor",
+    "lang":{ "cs":"kotva", "en":"drag lift", "de":"---" },
+    "version":"1.0.0"
+  },
+  "construction":{
+    "name":"construction",
+    "type":"industrial",
+    "keywords":"hammer,building-up,editing",
+    "lang":{ "cs":"výstavba", "en":"construction", "de":"---" },
+    "version":"1.0.0"
+  },
+  "islamism":{
+    "name":"islamism",
+    "type":"religion",
+    "keywords":"mosque,minaret,worship",
+    "lang":{ "cs":"islám", "en":"islamism", "de":"---" },
+    "version":"1.0.0"
+  },
+  "vineyard":{
+    "name":"vineyard",
+    "type":"nature",
+    "keywords":"grapes,vinery",
+    "lang":{ "cs":"vinohrad", "en":"vineyard", "de":"---" },
+    "version":"1.0.0"
+  },
+  "lighthouse":{
+    "name":"lighthouse",
+    "type":"transport",
+    "keywords":"beacon,pharos",
+    "lang":{ "cs":"maják", "en":"lighthouse", "de":"---" },
+    "version":"1.0.0"
+  },
+  "tower":{
+    "name":"tower",
+    "type":"architecture",
+    "keywords":"building,historical",
+    "lang":{ "cs":"věž", "en":"tower", "de":"---" },
+    "version":"1.0.0"
+  },
+  "wayside_cross":{
+    "name":"wayside_cross",
+    "type":"religion",
+    "keywords":"worship,christian,calvary",
+    "lang":{ "cs":"boží muka", "en":"wayside_cross", "de":"---" },
+    "version":"1.0.0"
+  },
+  "theatre":{
+    "name":"theatre",
+    "type":"freetime",
+    "keywords":"amphitheare,drama,mask,play,comedy,tragedy,entertainment,building",
+    "lang":{ "cs":"divadlo", "en":"theatre", "de":"---" },
+    "version":"1.0.0"
+  },
+  "train":{
+    "name":"train",
+    "type":"transport",
+    "keywords":"rail,railway,station",
+    "lang":{ "cs":"železnice", "en":"train", "de":"---" },
+    "version":"1.0.0"
+  },
+  "viewpoint":{
+    "name":"viewpoint",
+    "type":"tourism",
+    "keywords":"lookout,telescope,binoculars",
+    "lang":{ "cs":"vyhlídka", "en":"viewpoint", "de":"---" },
+    "version":"1.0.0"
+  },
+  "tram":{
+    "name":"tram",
+    "type":"transport",
+    "keywords":"public transport,lightrail,trolley",
+    "lang":{ "cs":"tramvaj", "en":"tram", "de":"---" },
+    "version":"1.0.0"
+  },
+  "tree_cinofer":{
+    "name":"tree_cinofer",
+    "type":"nature",
+    "keywords":"spruce,pine,forest",
+    "lang":{ "cs":"jehličnatý strom", "en":"tree conifer", "de":"---" },
+    "version":"1.0.0"
+  },
+  "university":{
+    "name":"university",
+    "type":"service",
+    "keywords":"education,college,school,campus,building",
+    "lang":{ "cs":"univerzita", "en":"university", "de":"---" },
+    "version":"1.0.0"
+  },
+  "tram_stop":{
+    "name":"tram_stop",
+    "type":"transport",
+    "keywords":"tramway,public transport",
+    "lang":{ "cs":"zastávka tramvaj", "en":"tram stop", "de":"---" },
+    "version":"1.0.0"
+  },
+  "underground":{
+    "name":"underground",
+    "type":"transport",
+    "keywords":"metro,tube,public transport,station",
+    "lang":{ "cs":"metro", "en":"underground", "de":"---" },
+    "version":"1.0.0"
+  },
+  "adit":{
+    "name":"adit",
+    "type":"industrial",
+    "keywords":"mine, quarry,hammers, extraction, shaft",
+    "lang":{ "cs":"důl", "en":"adit", "de":"---" },
+    "version":"1.0.0"
+  },
+  "post_office":{
+    "name":"post_office",
+    "type":"service",
+    "keywords":"mail,communication",
+    "lang":{ "cs":"pošta", "en":"post office", "de":"---" },
+    "version":"1.0.0"
+  },
+  "spring":{
+    "name":"spring",
+    "type":"nature",
+    "keywords":"drop,lake,pond",
+    "lang":{ "cs":"voda", "en":"spring", "de":"---" },
+    "version":"1.0.0"
+  },
+  "stadium":{
+    "name":"stadium",
+    "type":"sport",
+    "keywords":"football,soccer,baseball,games",
+    "lang":{ "cs":"stadión", "en":"stadium", "de":"---" },
+    "version":"1.0.0"
+  },
+  "swimming_pool":{
+    "name":"swimming_pool",
+    "type":"sport",
+    "keywords":"water,bath,basin",
+    "lang":{ "cs":"bazén", "en":"swimming pool", "de":"---" },
+    "version":"1.0.0"
+  },
+  "cityhall":{
+    "name":"cityhall",
+    "type":"service",
+    "keywords":"town hall,guildhall,building",
+    "lang":{ "cs":"radnice", "en":"city hall", "de":"---" },
+    "version":"1.0.0"
+  },
+  "bus":{
+    "name":"bus",
+    "type":"transport",
+    "keywords":"public transport,single-decker",
+    "lang":{ "cs":"městský autobus", "en":"bus", "de":"---" },
+    "version":"1.0.0"
+  },
+  "volcano":{
+    "name":"volcano",
+    "type":"nature",
+    "keywords":"magma,lava,mouintain",
+    "lang":{ "cs":"sopka", "en":"volcano", "de":"---" },
+    "version":"1.0.0"
+  },
+  "architecture":{
+    "name":"architecture",
+    "type":"architecture",
+    "keywords":"pillar,column,pole,building",
+    "lang":{ "cs":"architektura", "en":"architecture", "de":"---" },
+    "version":"1.0.0"
+  },
+  "arrow_up":{
+    "name":"arrow_up",
+    "type":"symbol",
+    "keywords":"sign,direction,north",
+    "lang":{ "cs":"šipka nahoru", "en":"arrow up", "de":"---" },
+    "version":"1.0.0"
+  },
+  "archaeological":{
+    "name":"archaeological",
+    "type":"tourism",
+    "keywords":"habitat,civilization",
+    "lang":{ "cs":"archeologie", "en":"archaeology", "de":"---" },
+    "version":"1.0.0"
+  },
+  "arrow_up_double":{
+    "name":"arrow_up_double",
+    "type":"symbol",
+    "keywords":"sign,direction,north",
+    "lang":{ "cs":"šipka nahoru zdvojená", "en":"double arrow up", "de":"---" },
+    "version":"1.0.0"
+  },
+  "building":{
+    "name":"building",
+    "type":"architecture",
+    "keywords":"skyscraper,high-rise",
+    "lang":{ "cs":"budova", "en":"building", "de":"---" },
+    "version":"1.0.0"
+  },
+  "toilet":{
+    "name":"toilet",
+    "type":"service",
+    "keywords":"WC,closet,toilette",
+    "lang":{ "cs":"WC", "en":"toilet", "de":"---" },
+    "version":"1.0.0"
+  },
+  "watermill":{
+    "name":"watermill",
+    "type":"building",
+    "keywords":"flour,outdoor museum",
+    "lang":{ "cs":"vodní mlýn", "en":"watermill", "de":"---" },
+    "version":"1.0.0"
+  },
+  "pharmacy":{
+    "name":"pharmacy",
+    "type":"service",
+    "keywords":"health,drugs,chemist,apotheca",
+    "lang":{ "cs":"lékárna", "en":"pharmacy", "de":"---" },
+    "version":"1.0.0"
+  },
+  "waterpark":{
+    "name":"waterpark",
+    "type":"freetime",
+    "keywords":"swimming pool,entertainment",
+    "lang":{ "cs":" aquapark", "en":"water park", "de":"---" },
+    "version":"1.0.0"
+  },
+  "viewtower":{
+    "name":"viewtower",
+    "type":"tourism",
+    "keywords":"viewpoint,building",
+    "lang":{ "cs":"rozhledna", "en":"viewtower", "de":"---" },
+    "version":"1.0.0"
+  },
+  "city":{
+    "name":"city",
+    "type":"urbanism",
+    "keywords":"houses,skyscraper,building",
+    "lang":{ "cs":"velkoměsto", "en":"city", "de":"---" },
+    "version":"1.0.0"
+  },
+  "battlefield":{
+    "name":"battlefield",
+    "type":"memorial",
+    "keywords":"sword,war",
+    "lang":{ "cs":"bojiště", "en":"battlefield", "de":"---" },
+    "version":"1.0.0"
+  },
+  "clean":{
+    "name":"clean",
+    "type":"symbol",
+    "keywords":"remove,brush,whisk broom",
+    "lang":{ "cs":"uklidit", "en":"clean", "de":"---" },
+    "version":"1.0.0"
+  },
+  "judaism":{
+    "name":"judaism",
+    "type":"religion",
+    "keywords":"worship,synagogue,star",
+    "lang":{ "cs":"židovství", "en":"judaism", "de":"---" },
+    "version":"1.0.0"
+  },
+  "christianism":{
+    "name":"christianism",
+    "type":"religion",
+    "keywords":"crucifix,worship",
+    "lang":{ "cs":"křesťanství", "en":"christianism", "de":"---" },
+    "version":"1.0.0"
+  },
+  "crown":{
+    "name":"crown",
+    "type":"symbol",
+    "keywords":"kingdom,queen",
+    "lang":{ "cs":"koruna", "en":"crown", "de":"---" },
+    "version":"1.0.0"
+  },
+  "restaurant":{
+    "name":"restaurant",
+    "type":"gastronomy",
+    "keywords":"inn,tavern,meal,cutlery,fork,knife,dinner",
+    "lang":{ "cs":"restaurace", "en":"restaurant", "de":"---" },
+    "version":"1.0.0"
+  },
+  "windmill":{
+    "name":"windmill",
+    "type":"building",
+    "keywords":"outdoor museum,flour,mill",
+    "lang":{ "cs":"větrný mlýn", "en":"windmill", "de":"---" },
+    "version":"1.0.0"
+  },
+  "caravan_site":{
+    "name":"caravan_site",
+    "type":"tourism",
+    "keywords":"camp,accommodation",
+    "lang":{ "cs":"karavan", "en":"caravan site", "de":"---" },
+    "version":"1.0.0"
+  },
+  "castle":{
+    "name":"castle",
+    "type":"tourims",
+    "keywords":"building,architecture,stately",
+    "lang":{ "cs":"zámek", "en":"castle", "de":"---" },
+    "version":"1.0.0"
+  },
+  "camp_site":{
+    "name":"camp_site",
+    "type":"tourism",
+    "keywords":"accommodation",
+    "lang":{ "cs":"tábořistě", "en":"campsite", "de":"---" },
+    "version":"1.0.0"
+  },
+  "cable_car":{
+    "name":"cable_car",
+    "type":"tourism",
+    "keywords":"transport,lift,funicular",
+    "lang":{ "cs":"lanová dráha", "en":"cable car", "de":"---" },
+    "version":"1.0.0"
+  },
+  "bus_stop":{
+    "name":"bus_stop",
+    "type":"transport",
+    "keywords":"school bus,public transport",
+    "lang":{ "cs":"autobusová zastávka", "en":"bus stop", "de":"---" },
+    "version":"1.0.0"
+  },
+  "bicycle":{
+    "name":"bicycle",
+    "type":"sport",
+    "keywords":"bike,velocipede,cycling,biking",
+    "lang":{ "cs":"cyklistika", "en":"bicycle", "de":"---" },
+    "version":"1.0.0"
+  },
+  "drop":{
+    "name":"drop",
+    "type":"nature",
+    "keywords":"lake,sea,pond,pool,water",
+    "lang":{ "cs":"kapka", "en":"drop", "de":"---" },
+    "version":"1.0.0"
+  },
+  "beach":{
+    "name":"beach",
+    "type":"freetime",
+    "keywords":"sun bathing,swimming,umbrella",
+    "lang":{ "cs":"pláž", "en":"beach", "de":"---" },
+    "version":"1.0.0"
+  },
+  "water_well":{
+    "name":"water_well",
+    "type":"nature",
+    "keywords":"drinking water",
+    "lang":{ "cs":"studna", "en":"water well", "de":"---" },
+    "version":"1.0.0"
+  },
+  "tree_leaf":{
+    "name":"tree_leaf",
+    "type":"nature",
+    "keywords":"forest,wood,",
+    "lang":{ "cs":"listnáč", "en":"tree leaf", "de":"---" },
+    "version":"1.0.0"
+  },
+  "bag":{
+    "name":"bag",
+    "type":"tourism",
+    "keywords":"backpack,knapsack,rucksack ",
+    "lang":{ "cs":"batoh", "en":"bag", "de":"---" },
+    "version":"1.0.0"
+  },
+  "barracks":{
+    "name":"barracks",
+    "type":"building",
+    "keywords":"army",
+    "lang":{ "cs":"kasárna", "en":"barracks", "de":"---" },
+    "version":"1.0.0"
+  },
+  "laptop":{
+    "name":"laptop",
+    "type":"symbol",
+    "keywords":"notebook,computer",
+    "lang":{ "cs":"notebook", "en":"laptop", "de":"---" },
+    "version":"1.0.0"
+  },
+  "waterwork":{
+    "name":"waterwork",
+    "type":"industry",
+    "keywords":"dam,reservoir",
+    "lang":{ "cs":"vodní dílo", "en":"waterwork", "de":"---" },
+    "version":"1.0.0"
+  },
+  "mountain":{
+    "name":"mountain",
+    "type":"nature",
+    "keywords":"peak,promontory,hill",
+    "lang":{ "cs":"hora", "en":"mountain", "de":"---" },
+    "version":"1.0.0"
+  },
+  "home":{
+    "name":"home",
+    "type":"building",
+    "keywords":"house,symbol",
+    "lang":{ "cs":"domov", "en":"home", "de":"---" },
+    "version":"1.0.0"
+  },
+  "hostel":{
+    "name":"hostel",
+    "type":"tourism",
+    "keywords":"accommodation,bed,housing",
+    "lang":{ "cs":"hostel", "en":"hostel", "de":"---" },
+    "version":"1.0.0"
+  },
+  "hotel":{
+    "name":"hotel",
+    "type":"tourism",
+    "keywords":"accommodation,bed,housing",
+    "lang":{ "cs":"hotel", "en":"hotel", "de":"---" },
+    "version":"1.0.0"
+  },
+  "hotel_alt":{
+    "name":"hotel_alt",
+    "type":"tourism",
+    "keywords":"accommodation,bed,housing",
+    "lang":{ "cs":"hotel", "en":"hotel", "de":"---" },
+    "version":"1.0.0"
+  },
+  "mall":{
+    "name":"mall",
+    "type":"service",
+    "keywords":"trade,commerce,merchant",
+    "lang":{ "cs":"obchodní dům", "en":"mall", "de":"---" },
+    "version":"1.0.0"
+  },
+  "market_place":{
+    "name":"market_place",
+    "type":"service",
+    "keywords":"trade,commerce,merchant",
+    "lang":{ "cs":"tržnice", "en":"market place", "de":"---" },
+    "version":"1.0.0"
+  },
+  "cartography":{
+    "name":"cartography",
+    "type":"symbol",
+    "keywords":"street,area",
+    "lang":{ "cs":"kartografie", "en":"cartography", "de":"---" },
+    "version":"1.0.0"
+  },
+  "pitch":{
+    "name":"pitch",
+    "type":"sport",
+    "keywords":"playgorund,field,soccer",
+    "lang":{ "cs":"hřbitov", "en":"pitch", "de":"---" },
+    "version":"1.0.0"
+  },
+  "shelter":{
+    "name":"shelter",
+    "type":"tourism",
+    "keywords":"shed,porch",
+    "lang":{ "cs":"přístřešek", "en":"shelter", "de":"---" },
+    "version":"1.0.0"
+  },
+  "saddle":{
+    "name":"saddle",
+    "type":"nature",
+    "keywords":"landform,geology",
+    "lang":{ "cs":"horské sedlo", "en":"saddle", "de":"---" },
+    "version":"1.0.0"
+  },
+  "sinkhole":{
+    "name":"sinkhole",
+    "type":"nature",
+    "keywords":"landform,cenote,doline,geology",
+    "lang":{ "cs":"závrt", "en":"sinkhole", "de":"---" },
+    "version":"1.0.0"
+  },
+  "supermarket":{
+    "name":"supermarket",
+    "type":"service",
+    "keywords":"trade,commerce,merchant",
+    "lang":{ "cs":"supermarket", "en":"supermarket", "de":"---" },
+    "version":"1.0.0"
+  },
+  "telephone":{
+    "name":"telephone",
+    "type":"symbol",
+    "keywords":"phone booth,blower,communication",
+    "lang":{ "cs":"telefon", "en":"telephone", "de":"---" },
+    "version":"1.0.0"
+  },
+  "stupa":{
+    "name":"stupa",
+    "type":"religion",
+    "keywords":"buddhismm,worship",
+    "lang":{ "cs":"stupa", "en":"stupa", "de":"---" },
+    "version":"1.0.0"
+  },
+  "magnifier":{
+    "name":"magnifier",
+    "type":"symbol",
+    "keywords":"zoom,find,eyeglass ,sun glass,loupe",
+    "lang":{ "cs":"lupa", "en":"magnifier", "de":"---" },
+    "version":"1.0.0"
+  },
+  "flag":{
+    "name":"flag",
+    "type":"symbol",
+    "keywords":"banner",
+    "lang":{ "cs":"prapor", "en":"flag", "de":"---" },
+    "version":"1.0.0"
+  },
+  "eye":{
+    "name":"eye",
+    "type":"symbol",
+    "keywords":"visible",
+    "lang":{ "cs":"oko", "en":"eye", "de":"---" },
+    "version":"1.0.0"
+  },
+  "gallery":{
+    "name":"gallery",
+    "type":"tourism",
+    "keywords":"paintings,art,photo,frame",
+    "lang":{ "cs":"galerie", "en":"gallery", "de":"---" },
+    "version":"1.0.0"
+  },
+  "gear":{
+    "name":"gear",
+    "type":"symbol",
+    "keywords":"settings,",
+    "lang":{ "cs":"převod", "en":"gear", "de":"---" },
+    "version":"1.0.0"
+  },
+  "map":{
+    "name":"map",
+    "type":"symbol",
+    "keywords":"cartography",
+    "lang":{ "cs":"mapa", "en":"map", "de":"---" },
+    "version":"1.0.0"
+  },
+  "island":{
+    "name":"island",
+    "type":"urbanism",
+    "keywords":"",
+    "lang":{ "cs":"ostrov", "en":"island", "de":"---" },
+    "version":"1.0.0"
+  },
+  "marker":{
+    "name":"marker",
+    "type":"symbol",
+    "keywords":"map,here you are",
+    "lang":{ "cs":"znak", "en":"marker", "de":"---" },
+    "version":"1.0.0"
+  },
+  "nature":{
+    "name":"nature",
+    "type":"nature",
+    "keywords":"leaf,reservation,",
+    "lang":{ "cs":"příroda", "en":"nature", "de":"---" },
+    "version":"1.0.0"
+  },
+  "square":{
+    "name":"square",
+    "type":"urbanism",
+    "keywords":"city centre,downtown",
+    "lang":{ "cs":"náměstí", "en":"square", "de":"---" },
+    "version":"1.0.0"
+  },
+  "ticket":{
+    "name":"ticket",
+    "type":"symbol",
+    "keywords":"box-office,ticket office",
+    "lang":{ "cs":"lístek", "en":"ticket", "de":"---" },
+    "version":"1.0.0"
+  },
+  "star":{
+    "name":"star",
+    "type":"symbol",
+    "keywords":"favorite",
+    "lang":{ "cs":"hvězda", "en":"star", "de":"---" },
+    "version":"1.0.0"
+  },
+  "town":{
+    "name":"town",
+    "type":"urbanism",
+    "keywords":"building,houses",
+    "lang":{ "cs":"město", "en":"town", "de":"---" },
+    "version":"1.0.0"
+  },
+  "village":{
+    "name":"village",
+    "type":"urbanism",
+    "keywords":"building,houses",
+    "lang":{ "cs":"vesnice", "en":"village", "de":"---" },
+    "version":"1.0.0"
+  },
+  "unesco":{
+    "name":"unesco",
+    "type":"tourism",
+    "keywords":"symbol,heritage,natural,cultural",
+    "lang":{ "cs":"unesco", "en":"unesco", "de":"---" },
+    "version":"1.0.0"
+  },
+  "facebook":{
+    "name":"facebook",
+    "type":"brand",
+    "keywords":"social,company",
+    "lang":{ "cs":"facebook", "en":"facebook", "de":"---" },
+    "version":"1.0.0"
+  },
+  "github":{
+    "name":"github",
+    "type":"brand",
+    "keywords":"social,company",
+    "lang":{ "cs":"github", "en":"github", "de":"---" },
+    "version":"1.0.0"
+  },
+  "linkedin":{
+    "name":"linkedin",
+    "type":"brand",
+    "keywords":"social,company",
+    "lang":{ "cs":"linkedin", "en":"linkedin", "de":"---" },
+    "version":"1.0.0"
+  },
+  "skype":{
+    "name":"skype",
+    "type":"brand",
+    "keywords":"communication,company",
+    "lang":{ "cs":"skype", "en":"skype", "de":"---" },
+    "version":"1.0.0"
+  },
+  "data":{
+    "name":"data",
+    "type":"symbol",
+    "keywords":"database,harddisc",
+    "lang":{ "cs":"data", "en":"data", "de":"---" },
+    "version":"1.0.0"
+  },
+  "database":{
+    "name":"database",
+    "type":"symbol",
+    "keywords":"data,security",
+    "lang":{ "cs":"databáze", "en":"database", "de":"---" },
+    "version":"1.0.0"
+  },
+  "analyse":{
+    "name":"analyse",
+    "type":"symbol",
+    "keywords":"settings",
+    "lang":{ "cs":"analýza", "en":"analyse", "de":"---" },
+    "version":"1.0.0"
+  },
+  "atm":{
+    "name":"atm",
+    "type":"service",
+    "keywords":"notes,bank,cash,money,credit card,automatic teller machine",
+    "lang":{ "cs":"bankomat", "en":"atm", "de":"---" },
+    "version":"1.0.0"
+  },
+  "avatar":{
+    "name":"avatar",
+    "type":"symbol",
+    "keywords":"person,user,man,client",
+    "lang":{ "cs":"avatar", "en":"avatar", "de":"---" },
+    "version":"1.0.0"
+  },
+  "burger":{
+    "name":"burger",
+    "type":"gastronomy",
+    "keywords":"fast food,meal",
+    "lang":{ "cs":"hamburger", "en":"hamburger", "de":"---" },
+    "version":"1.0.0"
+  },
+  "cash":{
+    "name":"cash",
+    "type":"service",
+    "keywords":"notes,money,dollar,euro",
+    "lang":{ "cs":"hotovost", "en":"cash", "de":"---" },
+    "version":"1.0.0"
+  },
+  "contour":{
+    "name":"contour",
+    "type":"symbol",
+    "keywords":"elevation,contour line,isoline,isopleth,isarithm",
+    "lang":{ "cs":"vrstevnice", "en":"contour line", "de":"---" },
+    "version":"1.0.0"
+  },
+  "download":{
+    "name":"download",
+    "type":"symbol",
+    "keywords":"download",
+    "lang":{ "cs":"download", "en":"download", "de":"---" },
+    "version":"1.0.0"
+  },
+  "upload":{
+    "name":"upload",
+    "type":"symbol",
+    "keywords":"upload",
+    "lang":{ "cs":"upload", "en":"upload", "de":"---" },
+    "version":"1.0.0"
+  },
+  "heart":{
+    "name":"heart",
+    "type":"symbol",
+    "keywords":"love,like,favourite,health",
+    "lang":{ "cs":"srdce", "en":"heart", "de":"---" },
+    "version":"1.0.0"
+  },
+  "invisible":{
+    "name":"invisible",
+    "type":"symbol",
+    "keywords":"closed eye,hide,non-eye",
+    "lang":{ "cs":"neviditelný", "en":"invisible", "de":"---" },
+    "version":"1.0.0"
+  },
+  "school":{
+    "name":"school",
+    "type":"service",
+    "keywords":"owl,wisdom,education",
+    "lang":{ "cs":"škola", "en":"school", "de":"---" },
+    "version":"1.0.0"
+  },
+  "mine":{
+    "name":"mine",
+    "type":"industrial",
+    "keywords":"pick,hammer,adit,mine shaft,quarry,extraction,ore",
+    "lang":{ "cs":"lom", "en":"mine", "de":"---" },
+    "version":"1.0.0"
+  },
+  "smartphone":{
+    "name":"smartphone",
+    "type":"industrial",
+    "keywords":"smart phone,cell phone,communication",
+    "lang":{ "cs":"chytrý telefon", "en":"smartphone", "de":"---" },
+    "version":"1.0.0"
+  }
+}
