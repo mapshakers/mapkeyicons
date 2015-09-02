@@ -6,23 +6,24 @@ The icon font especially for cartographical use.
 
 For demo see project page on [mapkeyicons.com](http://www.mapkeyicons.com)
 
-Production files are located in ```dist``` ditrectory
+Production files are located in ```dist``` ditrectory.
+
+#### Stay tuned!
+**We will provide ArcMap, QGIS symbol set soon!**
+
 ### License  
 **CC0 1.0 Universal**
 (feel free to use it everywhere)
 
-### Stay tuned!
-**We will provide ArcMap, QGIS symbol set soon!**
-
 ### Try it right now!
 Insert this code to your project.
 ```html
-<!-- link rawgir MapkeyIcons.css for dev purpoeses! -->
+<!-- Link rawgit MapkeyIcons.css for development purposes! -->
 <link href='https://rawgit.com/mapshakers/mapkeyicons/master/dist/MapkeyIcons.css' rel='stylesheet' type='text/css'>
 
 <!-- use it within html document -->
-Hello this is <span class='mki mki-mapkeyicons'></span> mapkeyicons! 
-You can <span class='mki mki-download'></span> download it and use it. For free!
+Hello this is <span class='mki-intext mki-mapkeyicons'></span> mapkeyicons! 
+You can <span class='mki-intext mki-download'></span> download it and use it. For free!
 ```
 
 
@@ -35,6 +36,16 @@ Use MapkeyIcons in your web project! It´s very easy, as you can see:
 <!-- USE EVERYWHERE IN DOCUMENT BODY ELEMENT-->
 <!-- MINIMAL USAGE-->
 <span class="mki mki-theatre"></span>
+<!-- FOR INLINE USAGE-->
+<span class="mki-intext mki-theatre"></span>
+```
+Predefined sizes:
+```css
+.mki-intext { font-size: 1.2em; }
+.mki-short { font-size: small; }
+.mki-tall { font-size: large; }
+.mki-grande { font-size: 32px; }
+.mki-venti { font-size: 64px; }
 ```
 
 ## FONTS
@@ -73,7 +84,7 @@ You can use rendered PNG icons. The image size is 256×256px.
 * 0.y.0: icon added, large shape modifications
 * 0.0.z: small shape modifications
 
-
+---
 *For similar project visit: [FontAwesome](https://fortawesome.github.io/Font-Awesome/) or [MAKI](https://www.mapbox.com/maki/)*
 
 *(c) [mapshakers](http://www.mapshakers.com), 2015*
