@@ -84,6 +84,5 @@ You can use rendered PNG icons. The image size is 256×256px.
 <br/>
 
 ---
-*For similar project visit: [FontAwesome](https://fortawesome.github.io/Font-Awesome/) or [MAKI](https://www.mapbox.com/maki/)*<br/>
-*(c) [mapshakers](http://www.mapshakers.com), 2015*
+*(c) [mapshakers](http://www.mapshakers.com), 2015*,  *for similar project visit  [FontAwesome](https://fortawesome.github.io/Font-Awesome/) or [MAKI icons](https://www.mapbox.com/maki/)*
 
