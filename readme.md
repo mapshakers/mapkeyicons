@@ -2,7 +2,7 @@
     <img width='75%' src="http://mapkeyicons.com/demo/img/mapkeyIcons.svg" alt="mapkeyicons"/>
     <img width='50%' src="http://www.mapkeyicons.com/demo/img/MapkeyIconsPromo.svg" alt="mapkeyicons"/>
 </div>
-The icon font especially for cartographical use. For demo see project page on [mapkeyicons.com](http://www.mapkeyicons.com). Production files are located in ```dist``` ditrectory.
+The icon font especially for cartographical use. For demo see project page on [mapkeyicons.com](http://www.mapkeyicons.com). Production files are located in ```dist``` directory.
 
 **Stay tuned! We will soon provide ArcMap, QGIS symbol set!**<br/>
 Simple Leaflet plugin: [leaflet-mapkey-icon](https://github.com/mapshakers/leaflet-mapkey-icon)
