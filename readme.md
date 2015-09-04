@@ -4,8 +4,8 @@
 </div>
 The icon font especially for cartographical use. For demo see project page on [mapkeyicons.com](http://www.mapkeyicons.com). Production files are located in ```dist``` ditrectory.
 
-**Stay tuned! We will soon provide ArcMap, QGIS symbol set!**
-Simple Leaflet plugin: [leaflet-mapkey-icon](https://github.com/mapshakers/leaflet-mapkey-icon)!
+**Stay tuned! We will soon provide ArcMap, QGIS symbol set!**<br/>
+Simple Leaflet plugin: [leaflet-mapkey-icon](https://github.com/mapshakers/leaflet-mapkey-icon)
 
 ### License  
 **CC0 1.0 Universal**
