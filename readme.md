@@ -1,6 +1,6 @@
 <div style="text-align:center" align="center">
-    <img src="http://mapkeyicons.com/demo/img/mapkeyIcons.svg" alt="mapkeyicons"/>
-    <img src="http://www.mapkeyicons.com/demo/img/MapkeyIconsPromo.svg" alt="mapkeyicons"/>
+    <img width='50%' src="http://mapkeyicons.com/demo/img/mapkeyIcons.svg" alt="mapkeyicons"/>
+    <img width='50%' src="http://www.mapkeyicons.com/demo/img/MapkeyIconsPromo.svg" alt="mapkeyicons"/>
 </div>
 The icon font especially for cartographical use. For demo see project page on [mapkeyicons.com](http://www.mapkeyicons.com). Production files are located in ```dist``` ditrectory.
 
