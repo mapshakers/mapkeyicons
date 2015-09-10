@@ -21,7 +21,9 @@ Insert this code into your project.
 Hello this is <span class='mki-intext mki-mapkeyicons'></span> mapkeyicons! 
 You can <span class='mki-intext mki-download'></span> download it and use it. For free!
 ```
-
+<link href='https://rawgit.com/mapshakers/mapkeyicons/master/dist/MapkeyIcons.css' rel='stylesheet' type='text/css'>
+Hello this is <span class='mki-intext mki-mapkeyicons'></span> mapkeyicons! 
+You can <span class='mki-intext mki-download'></span> download it and use it. For free!
 
 ## CSS 
 Use MapkeyIcons in your web project! It´s very easy, as you can see:
