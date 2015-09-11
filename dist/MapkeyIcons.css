@@ -3,7 +3,7 @@
    MapkeyIcons - css style
    license: CC0 1.0 Universal
    author: Filip Zavadil, www.mapshakers.com, 2015
-   version: 1.0.0
+   version: 1.1.0
 ***********************************
 ***********************************/
 
@@ -183,3 +183,31 @@
 .mki-school:before { content: '\e08e';}
 .mki-mine:before { content: '\e08f';}
 .mki-smartphone:before { content: '\e090';}
+.mki-oppositeway:before { content: '\e091';}
+.mki-seal:before { content: '\e092';}
+.mki-lock:before { content: '\e093';}
+.mki-car:before { content: '\e094';}
+.mki-music:before { content: '\e095';}
+.mki-disabled:before { content: '\e096';}
+.mki-parking:before { content: '\e097';}
+.mki-fuel:before { content: '\e098';}
+.mki-fuel_alt:before { content: '\e099';}
+.mki-nonsmoking:before { content: '\e09a';}
+.mki-smoking:before { content: '\e09b';}
+.mki-fire:before { content: '\e09c';}
+.mki-helicopter:before { content: '\e09d';}
+.mki-dislike:before { content: '\e09e';}
+.mki-like:before { content: '\e09f';}
+.mki-north:before { content: '\e0a0';}
+.mki-north_alt:before { content: '\e0a1';}
+.mki-north_alt_II:before { content: '\e0a2';}
+.mki-north_alt_III:before { content: '\e0a3';}
+.mki-compass:before { content: '\e0a4';}
+.mki-compass_alt:before { content: '\e0a5';}
+.mki-nocamera:before { content: '\e0a6';}
+.mki-camera:before { content: '\e0a7';}
+.mki-lion:before { content: '\e0a8';}
+.mki-forbidden:before { content: '\e0a9';}
+.mki-stop:before { content: '\e0aa';}
+.mki-go:before { content: '\e0ab';}
+.mki-sailboat:before { content: '\e0ac';}

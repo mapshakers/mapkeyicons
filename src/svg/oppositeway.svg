@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) mapshakers 2015, Licence: CC0 1.0 Universal, www.mapshakers.com  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="oppositeway" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="256px" height="256px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#464646;}
+	.st1{fill:#D1D1D1;}
+]]>
+</style>
+<path class="st1" d="M129,242.745c-63.271,0-114.745-51.474-114.745-114.744C14.255,64.73,65.729,13.255,129,13.255
+	c63.271,0,114.745,51.475,114.745,114.746C243.745,191.271,192.271,242.745,129,242.745z"/>
+<path class="st0" d="M129,23.255c-57.849,0-104.745,46.896-104.745,104.746c0,57.849,46.897,104.744,104.745,104.744
+	c57.848,0,104.745-46.896,104.745-104.744C233.745,70.151,186.85,23.255,129,23.255z M191.266,144.898H70.69
+	c-9.333,0-16.899-7.564-16.899-16.897c0-9.334,7.565-16.897,16.899-16.897h120.574c9.334,0,16.9,7.565,16.9,16.897
+	C208.164,137.334,200.598,144.898,191.266,144.898z"/>
+</svg>

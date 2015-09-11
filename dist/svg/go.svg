@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) mapshakers 2015, Licence: CC0 1.0 Universal, www.mapshakers.com  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="go" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="256px" height="256px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#464646;}
+	.st1{fill:#D1D1D1;}
+]]>
+</style>
+<path class="st1" d="M128.166,248.835c-64.975,0-117.835-52.86-117.835-117.835c0-64.975,52.86-117.835,117.835-117.835
+	C193.141,13.165,246,66.025,246,131C246,195.975,193.141,248.835,128.166,248.835z"/>
+<path class="st0" d="M128.166,23.165C68.61,23.165,20.331,71.444,20.331,131c0,59.557,48.279,107.835,107.835,107.835
+	C187.721,238.835,236,190.557,236,131C236,71.444,187.721,23.165,128.166,23.165z M187.387,141.747l-87.776,50.68
+	c-7.698,4.444-13.997,0.808-13.997-8.081V82.989c0-8.89,6.299-12.526,13.997-8.082l87.776,50.677
+	C195.085,130.029,195.085,137.303,187.387,141.747z"/>
+</svg>

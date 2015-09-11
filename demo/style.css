@@ -295,14 +295,17 @@ header img {
     display: inline-block;
     margin: 20px;
     text-align: center;
-    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+
     line-height: 50px;
     cursor: pointer;
+
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+    color: #282828;
 }
 
 .icon-item:hover{
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
-    color: #464646;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    color: #cccccc;
 }
 
 #lastinfo{

@@ -1,6 +1,6 @@
 {
   "banner": "<!-- (c) mapshakers 2015, License: CC0 1.0 Universal, www.mapshakers.com  -->",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "CC0 1.0 Universal",
   "organisation": "mapshakers",
   "author" :"Filip Zavadil",
@@ -113,7 +113,7 @@
   "zoo":{
     "name":"zoo",
     "type":"freetime",
-    "keywords":"zoological,monkey,entertainment",
+    "keywords":"zoological,monkey,entertainment,animal",
     "lang":{ "cs":"zoo", "en":"zoo", "de":"zoo" },
     "version":"1.0.0"
   },
@@ -1002,7 +1002,7 @@
   "school":{
     "name":"school",
     "type":"service",
-    "keywords":"owl,wisdom,education",
+    "keywords":"owl,wisdom,education,animal,bird",
     "lang":{ "cs":"škola", "en":"school", "de":"---" },
     "version":"1.0.0"
   },
@@ -1019,5 +1019,202 @@
     "keywords":"smart phone,cell phone,communication",
     "lang":{ "cs":"chytrý telefon", "en":"smartphone", "de":"---" },
     "version":"1.0.0"
+  },
+  "fuel":{
+    "name":"fuel",
+    "type":"service",
+    "keywords":"gas,pump station,gas station,petrol station,filling station, ",
+    "lang":{ "cs":"čerpací stanice", "en":"fuel", "de":"---" },
+    "version":"1.1.0"
+  },
+  "fuel_alt":{
+    "name":"fuel_alt",
+    "type":"service",
+    "keywords":"gas,pump station,gas station,petrol station,filling station, ",
+    "lang":{ "cs":"čerpací stanice", "en":"fuel", "de":"---" },
+    "version":"1.1.0"
+  },
+  "parking":{
+    "name":"parking",
+    "type":"urbanism",
+    "keywords":"parking lot,car park,transport,road signs",
+    "lang":{ "cs":"parking", "en":"parkoviště", "de":"---" },
+    "version":"1.1.0"
+  },
+  "oppositeway":{
+    "name":"oppositeway",
+    "type":"transport",
+    "keywords":"road signs",
+    "lang":{ "cs":"protisměrka", "en":"opposite way", "de":"---" },
+    "version":"1.1.0"
+  },
+  "sailboat":{
+    "name":"sailboat",
+    "type":"transport",
+    "keywords":"ship,boat",
+    "lang":{ "cs":"plachetnice", "en":"sail boat", "de":"---" },
+    "version":"1.1.0"
+  },
+  "nonsmoking":{
+    "name":"nonsmoking",
+    "type":"symbol",
+    "keywords":"no smoking,cigarette,fag,gasper",
+    "lang":{ "cs":"nekuřáctví", "en":"nonsmoking", "de":"---" },
+    "version":"1.1.0"
+  },
+  "smoking":{
+    "name":"smoking",
+    "type":"symbol",
+    "keywords":"cigarette,fag,gasper",
+    "lang":{ "cs":"kuřáctví", "en":"smoking", "de":"---" },
+    "version":"1.1.0"
+  },
+  "seal":{
+    "name":"seal",
+    "type":"freetime",
+    "keywords":"amusement park,zoo,dolphinarium,animal",
+    "lang":{ "cs":"lachtan", "en":"seal", "de":"---" },
+    "version":"1.1.0"
+  },
+  "forbidden":{
+    "name":"forbidden",
+    "type":"symbol",
+    "keywords":"ban,prohibition,veto,impossibility",
+    "lang":{ "cs":"zakázano", "en":"forbidden", "de":"---" },
+    "version":"1.1.0"
+  },
+  "fire":{
+    "name":"fire",
+    "type":"service",
+    "keywords":"fire department,firemen,gas,hearth",
+    "lang":{ "cs":"oheň", "en":"fire", "de":"---" },
+    "version":"1.1.0"
+  },
+  "like":{
+    "name":"like",
+    "type":"symbol",
+    "keywords":"like,facebook,favourite",
+    "lang":{ "cs":"like", "en":"like", "de":"---" },
+    "version":"1.1.0"
+  },
+  "dislike":{
+    "name":"dislike",
+    "type":"symbol",
+    "keywords":"dislike",
+    "lang":{ "cs":"dislike", "en":"dislike", "de":"---" },
+    "version":"1.1.0"
+  },
+  "disabled":{
+    "name":"disabled",
+    "type":"symbol",
+    "keywords":"wheelchair,immobile",
+    "lang":{ "cs":"postižený", "en":"disabled", "de":"---" },
+    "version":"1.1.0"
+  },
+  "compass":{
+    "name":"compass",
+    "type":"symbol",
+    "keywords":"Cardinal direction,north,west,east,south",
+    "lang":{ "cs":"kompas", "en":"compass", "de":"---" },
+    "version":"1.1.0"
+  },
+  "compass_alt":{
+    "name":"compass_alr",
+    "type":"symbol",
+    "keywords":"Cardinal direction,north,west,east,south",
+    "lang":{ "cs":"kompas", "en":"compass", "de":"---" },
+    "version":"1.1.0"
+  },
+  "north":{
+    "name":"north",
+    "type":"symbol",
+    "keywords":"Cardinal direction,north,indicator,pointer",
+    "lang":{ "cs":"north", "en":"north", "de":"---" },
+    "version":"1.1.0"
+  },
+  "north_alt":{
+    "name":"north_alt",
+    "type":"symbol",
+    "keywords":"Cardinal direction,north,indicator,pointer",
+    "lang":{ "cs":"north", "en":"north", "de":"---" },
+    "version":"1.1.0"
+  },
+  "north_alt_II":{
+    "name":"north_alt_II",
+    "type":"symbol",
+    "keywords":"Cardinal direction,north,indicator,pointer",
+    "lang":{ "cs":"north", "en":"north", "de":"---" },
+    "version":"1.1.0"
+  },
+  "north_alt_III":{
+    "name":"north_alt_III",
+    "type":"symbol",
+    "keywords":"Cardinal direction,north,indicator,pointer",
+    "lang":{ "cs":"north", "en":"north", "de":"---" },
+    "version":"1.1.0"
+  },
+  "stop":{
+    "name":"stop",
+    "type":"symbol",
+    "keywords":"traffic signs",
+    "lang":{ "cs":"stop", "en":"stop", "de":"---" },
+    "version":"1.1.0"
+  },
+  "camera":{
+    "name":"camera",
+    "type":"symbol",
+    "keywords":"free time, photo",
+    "lang":{ "cs":"fotoaparát", "en":"camera", "de":"---" },
+    "version":"1.1.0"
+  },
+  "nocamera":{
+    "name":"nocamera",
+    "type":"symbol",
+    "keywords":"no photo,No Photography",
+    "lang":{ "cs":"zákaz fotografování", "en":"no camera", "de":"---" },
+    "version":"1.1.0"
+  },
+  "car":{
+    "name":"nocamera",
+    "type":"transport",
+    "keywords":"auto, automobil",
+    "lang":{ "cs":"automobil", "en":"car", "de":"---" },
+    "version":"1.1.0"
+  },
+  "go":{
+    "name":"go",
+    "type":"symbol",
+    "keywords":"play",
+    "lang":{ "cs":"volno", "en":"go", "de":"---" },
+    "version":"1.1.0"
+  },
+  "helicopter":{
+    "name":"helicopter",
+    "type":"transport",
+    "keywords":"chopper,copter,whirlybird,helipad,heliport",
+    "lang":{ "cs":"vrtulník", "en":"helicopter", "de":"---" },
+    "version":"1.1.0"
+  },
+  "lion":{
+    "name":"lion",
+    "type":"freetime",
+    "keywords":"zoo,animal,sahara",
+    "lang":{ "cs":"lev", "en":"lion", "de":"---" },
+    "version":"1.1.0"
+  },
+  "lock":{
+    "name":"lock",
+    "type":"symbol",
+    "keywords":"padlock,security",
+    "lang":{ "cs":"visací zámek", "en":"lock", "de":"---" },
+    "version":"1.1.0"
+  },
+  "music":{
+    "name":"lock",
+    "type":"freetime",
+    "keywords":"dance,song,note,sheet,symbol",
+    "lang":{ "cs":"hudba", "en":"music", "de":"---" },
+    "version":"1.1.0"
   }
+
 }
