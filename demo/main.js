@@ -169,10 +169,10 @@ function init(data){
         var codebox = $('<div>',{class:'codebox'}).html(code).appendTo(iconInfo);
 
         var buttons = $('<div>',{class:'buttons'}).appendTo(iconInfo);
-        var buttonSVG = $('<a>',{class:'btn', href:'../dist/svg/'+icondata.name+".svg", download: icondata.name+".svg", target:'_blank'})
+        var buttonSVG = $('<a>',{class:'btn', href:'dist/svg/'+icondata.name+".svg", download: icondata.name+".svg", target:'_blank'})
             .html( '<span class="mki mki-download"></span>'+" svg")
             .appendTo(buttons);
-        var buttonPNG = $('<a>',{class:'btn', href:'../dist/png/'+icondata.name+".png", download: icondata.name+".png", target:'_blank'})
+        var buttonPNG = $('<a>',{class:'btn', href:'dist/png/'+icondata.name+".png", download: icondata.name+".png", target:'_blank'})
             .html( '<span class="mki mki-download"></span>'+" png")
             .appendTo(buttons);
 
