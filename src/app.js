@@ -136,27 +136,3 @@ array.forEach(function(item) {
         })
     }
 });
-
-
-/* CREATE zip */
-var EasyZip = require('easy-zip').EasyZip;
-var zipPNG = new EasyZip();
-zipPNG.zipFolder('../dist/png',function(){
-    zipPNG.writeToFile('../dist/png.zip');
-});
-var zipSVG = new EasyZip();
-zipSVG.zipFolder('../dist/svg',function(){
-    zipSVG.writeToFile('../dist/svg.zip');
-});
-
-var zipCSS = new EasyZip();
-var files = [
-    {source : '../dist/MapkeyIcons.css', target: 'MapkeyIcons.css'},
-    {source : '../dist/MapkeyIcons.svg', target: 'MapkeyIcons.svg'},
-    {source :'../dist/MapkeyIcons.ttf', target: 'MapkeyIcons.ttf'},
-    {source :'../dist/MapkeyIcons.woff', target: 'MapkeyIcons.woff'},
-    {source : '../dist/MapkeyIcons.eot', target: 'MapkeyIcons.eot'}
-];
-zipCSS.batchAdd(files,function(){
-    zipCSS.writeToFile('../dist/MapkeyIcons.zip');
-});
