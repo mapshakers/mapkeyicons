@@ -60,7 +60,6 @@ function init(data){
                     scrollTop: iconItem.offset().top
                 });
 
-
                var divFrame = $('<div>',{id:'divFrame'})
                    .html(iconSreen(icondata))
                 returnLast(iconItem).after(divFrame)
@@ -93,12 +92,7 @@ function init(data){
             })
             .appendTo(types);
     }
-
-    for (var i=0; i< data.types.length;i++ ) {
-        addTypeButton(data.types[i])
-    }
-
-    var btn = $('<button>',{class:''})
+    var btnAll = $('<button>',{class:''})
         .html('all')
         .on('click',function(){
             searchinput.val(null)
@@ -106,20 +100,34 @@ function init(data){
         })
         .appendTo(types);
 
+    var btnLatest = $('<button>',{style:'color:#ffcece'})
+        .html('new in version '+ data.version)
+        .on('click',function(){
+            searchinput.val(data.version)
+            searchQuery(data.version)
+        })
+        .appendTo(types);
+    for (var i=0; i< data.types.length;i++ ) {
+        addTypeButton(data.types[i])
+    }
+
+
 
     var index = lunr(function () {
-        this.field('name',{boost: 10})
-        this.field('keywords')
-        this.field('type',{boost: 5})
-        this.field('lang2')
-        this.ref('index')
+        this.field('name',{boost: 10});
+        this.field('keywords');
+        this.field('type',{boost: 5});
+        this.field('lang2');
+        this.field('version');
+        this.ref('index');
     });
 
 
     for (var i=0; i< icons.length;i++ ) {
         var data = icons[i];
         data.lang2 = [data.lang.cs,data.lang.en,data.lang.de].join(';');
-        data.keywords = data.keywords.split(',').join(' ')
+        data.keywords = data.keywords.split(',').join(' ');
+        data.version = 'new in '+ data.version;
         data.index= i;
         index.add(data)
     }
@@ -135,8 +143,8 @@ function init(data){
         };
 
         $.each(result,function(index,value){
-            var icondata = icons[value.ref]
-            addIcon(icondata)
+            var icondata = icons[value.ref];
+            addIcon(icondata);
         })
     }
 
@@ -160,6 +168,7 @@ function init(data){
         var metadata = $('<div>',{id:'metadata'}).appendTo(iconInfo);
         var id = $('<div>',{class:''}).html("<span>id: </span><span class='value'>"+icondata.name+"</span>").appendTo(metadata);
         var type = $('<div>',{class:''}).html("<span>type: </span> <span class='value'>"+icondata.type+"</span>").appendTo(metadata);
+        var version = $('<div>',{class:''}).html("<span>version: </span> <span class='value'>"+icondata.version.replace('new in ','')+"</span>").appendTo(metadata);
         var metadata2 = $('<div>',{id:'metadata'}).appendTo(iconInfo);
         var unicode = $('<div>',{class:''}).html("<span>unicode: </span> <span class='value'>U+"+icondata.unicode+"</span>").appendTo(metadata2);
         var html = $('<div>',{class:''}).html("<span>html: </span><span class='value' style='font-family: \"Lucida Console\", Monaco, monospace';>&amp;#"+icondata.decimal+";  &amp;#x"+icondata.unicode+";</span>").appendTo(metadata2);
@@ -187,3 +196,13 @@ function init(data){
 }
 
 
+function transparent(){
+    $('.icons').css('background','transparent')
+}
+
+$('#contact').on('click',function(e){
+    e.preventDefault();
+    //$('#bcf_trigger').click()
+    console.log($('#bcf_trigger').html())
+    return null;
+});
