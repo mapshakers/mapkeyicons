@@ -1210,11 +1210,18 @@
     "version":"1.1.0"
   },
   "music":{
-    "name":"lock",
+    "name":"music",
     "type":"freetime",
     "keywords":"dance,song,note,sheet,symbol",
     "lang":{ "cs":"hudba", "en":"music", "de":"---" },
     "version":"1.1.0"
+  },
+  "bars":{
+    "name":"bars",
+    "type":"symbol",
+    "keywords":"menu",
+    "lang":{ "cs":"bars", "en":"bars", "de":"---" },
+    "version":"1.2.0"
   }
 
 }
