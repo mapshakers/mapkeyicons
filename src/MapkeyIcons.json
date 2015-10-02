@@ -1224,7 +1224,7 @@
     "version":"1.2.0"
   },
   "pinterest":{
-    "name":"bars",
+    "name":"pinterest",
     "type":"symbol",
     "keywords":"brand",
     "lang":{ "cs":"pinterest", "en":"pinterest", "de":"---" },
