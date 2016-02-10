@@ -3,7 +3,7 @@
    MapkeyIcons - css style
    license: CC0 1.0 Universal
    author: Filip Zavadil, www.mapshakers.com, 2015
-   version: 1.1.0
+   version: 1.2.0
 ***********************************
 ***********************************/
 
@@ -211,3 +211,8 @@
 .mki-stop:before { content: '\e0aa';}
 .mki-go:before { content: '\e0ab';}
 .mki-sailboat:before { content: '\e0ac';}
+.mki-bars:before { content: '\e0ad';}
+.mki-pinterest:before { content: '\e0ae';}
+.mki-magic_portal:before { content: '\e0af';}
+.mki-pyramid:before { content: '\e0b0';}
+.mki-pdf:before { content: '\e0b1';}

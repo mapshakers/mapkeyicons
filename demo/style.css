@@ -255,19 +255,19 @@ header img {
 }
 
 .icons ::-webkit-input-placeholder {
-    color: #5a718d;
+    color: #415265;
 }
 
 .icons :-moz-placeholder { /* Firefox 18- */
-    color: #5a718d;
+    color: #415265;
 }
 
 .icons ::-moz-placeholder {  /* Firefox 19+ */
-    color: #5a718d;
+    color: #415265;
 }
 
 .icons :-ms-input-placeholder {
-    color: #5a718d;
+    color: #415265;
 }
 
 .icons input:focus {

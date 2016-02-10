@@ -1,6 +1,6 @@
 {
   "banner": "<!-- (c) mapshakers 2015, License: CC0 1.0 Universal, www.mapshakers.com  -->",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "CC0 1.0 Universal",
   "organisation": "mapshakers",
   "author" :"Filip Zavadil",
@@ -1210,11 +1210,25 @@
     "version":"1.1.0"
   },
   "music":{
-    "name":"lock",
+    "name":"music",
     "type":"freetime",
     "keywords":"dance,song,note,sheet,symbol",
     "lang":{ "cs":"hudba", "en":"music", "de":"---" },
     "version":"1.1.0"
+  },
+  "bars":{
+    "name":"bars",
+    "type":"symbol",
+    "keywords":"menu",
+    "lang":{ "cs":"bars", "en":"bars", "de":"---" },
+    "version":"1.2.0"
+  },
+  "pinterest":{
+    "name":"pinterest",
+    "type":"symbol",
+    "keywords":"brand",
+    "lang":{ "cs":"pinterest", "en":"pinterest", "de":"---" },
+    "version":"1.2.0"
   }
 
 }
